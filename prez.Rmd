@@ -113,8 +113,49 @@ layout: true
 
 
 <div class="my-footer"></div>
+
 ---
 
 # Background
 
-- Hello world
+- The different dialects of Mexican Spanish (just like any other language) vary at each structural level.
+
+--
+
+- Pragmatics
+
+--
+
+> In Mexico City, it's considered polite to say **"buen provecho"** when passing by other patrons at a bar, which is not the case in Chihuauhua.
+<audio controls>
+  <source src="buenProvecho.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+
+---
+
+layout: true
+
+<div class="my-footer"></div>
+
+---
+
+# Background
+
+- Syntax
+
+--
+
+> In CDMX, verbs are conjugated according to *tú* and *usted*, in certain states, "vos" is used (by some people). **¿Qué decís?** vs. **¿Que dices?** (Orozco, 2010: 256)
+
+---
+
+![](voseo_mapa.png)
+Map reporoduced from Orozco (2010: 256)
+
+<div class="my-footer"></div>
+
+---
+Technical Notes
+
+---

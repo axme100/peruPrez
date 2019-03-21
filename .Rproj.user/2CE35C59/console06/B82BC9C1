@@ -43,3 +43,70 @@ $ [0mgit log
 \fatal: your current branch 'master' does not have any commits yet
 ]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m peru
 $ [0m\[Kgit add .
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master +)[0;34m peru
+$ [0mgit commit -m "Ini tial commit"
+[master (root-commit) e87abe3] Initial commit
+ 49 files changed, 5430 insertions(+)
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/2CE35C59/console06/B82BC9C1
+ create mode 100644 .Rproj.user/2CE35C59/console06/INDEX001
+ create mode 100644 .Rproj.user/2CE35C59/pcs/debug-breakpoints.pper
+ create mode 100644 .Rproj.user/2CE35C59/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/2CE35C59/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/2CE35C59/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/2CE35C59/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/2CE35C59/rmd-outputs
+ create mode 100644 .Rproj.user/2CE35C59/saved_source_markers
+ create mode 100644 .Rproj.user/2CE35C59/sources/prop/6814096F
+ create mode 100644 .Rproj.user/2CE35C59/sources/prop/CA5E4FAF
+ create mode 100644 .Rproj.user/2CE35C59/sources/prop/EE421E07
+ create mode 100644 .Rproj.user/2CE35C59/sources/prop/INDEX
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/2CAA0AC4
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/2CAA0AC4-contents
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/51EAF418
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/51EAF418-contents
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/FA9C8F9
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/FA9C8F9-contents
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/2CE35C59145DD732/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/2CE35C5934FA9A99/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/2CE35C594810CB25/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/2CE35C598F11204/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 libs/crosstalk/css/crosstalk.css
+ create mode 100644 libs/crosstalk/js/crosstalk.js
+ create mode 100644 libs/crosstalk/js/crosstalk.js.map
+ create mode 100644 libs/crosstalk/js/crosstalk.min.js
+ create mode 100644 libs/crosstalk/js/crosstalk.min.js.map
+ create mode 100644 libs/datatables-binding/datatables.js
+ create mode 100644 libs/datatables-css/datatables-crosstalk.css
+ create mode 100644 libs/dt-core/css/jquery.dataTables.extra.css
+ create mode 100644 libs/dt-core/css/jquery.dataTables.min.css
+ create mode 100644 libs/dt-core/js/jquery.dataTables.min.js
+ create mode 100644 libs/htmlwidgets/htmlwidgets.js
+ create mode 100644 libs/jquery/LICENSE.txt
+ create mode 100644 libs/jquery/jquery.min.js
+ create mode 100644 libs/remark-css/default-fonts.css
+ create mode 100644 libs/remark-css/default.css
+ create mode 100644 my-theme.css
+ create mode 100644 peru.Rproj
+ create mode 100644 prez.Rmd
+ create mode 100644 prez.html
+ create mode 100644 prez_files/figure-html/cars-1.svg
+ create mode 100644 xaringan-themer.css
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+$ [0m[K$ [0mgit log
+[?1h=[33mcommit e87abe346ddbbdb989eafada2fe[m [33m29c8260eacb34[m[m
+:[K[K[?1l>]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0mls
+buenProvecho.wav	prez.html
+libs			prez_files
+my-theme.css		voseo_mapa.png
+peru.Rproj		xaringan-themer.css
+prez.Rmd
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0mgit add .
