@@ -1,0 +1,45 @@
+]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m[0;34m peru
+$ [0m[K$ [0mtou[K[K[Ksublime3 my0th[K[K-[K-[K[K-theme.css
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
+$ [0mls
+libs
+peru.Rproj
+prez.Rmd
+prez.html
+prez_files
+xaringan-themer.css
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
+$ [0mopen .
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
+$ [0m[K$ [0m[K$ [0m[K$ [0m]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m[0;34m peru
+[K$ [0mpng
+bash: png: command not found
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
+$ [0mls
+libs
+my-theme.css
+peru.Rproj
+prez.Rmd
+prez.html
+prez_files
+xaringan-themer.css
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
+$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0mopen .
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
+[?1034h[38;5;203mmaxcarey[38;05;38m[0;34m peru
+$ [0m[K$ [0mg[Kgit add .
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
+$ [0mgit[K[K[Kgit init
+Initialized empty Git repository in /Users/maxcarey/Documents/proj/peru/.git/
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master #)[0;34m peru
+$ [0mgit add .
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master +)[0;34m peru
+$ [0mgit commit -m "Ini tial commit-[K 0m "[K[K[K[K[K "gett[K[K[K[KGetting  formatting of slide s just how I want it [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kit " [K
+> 
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m peru
+$ [0mgit log
+\fatal: your current branch 'master' does not have any commits yet
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m peru
+$ [0m\[Kgit add .

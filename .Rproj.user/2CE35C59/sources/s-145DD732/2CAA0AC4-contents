@@ -1,0 +1,437 @@
+---
+title: "Unidad 2"
+subtitle: "R Studio y El Tidyverse"
+author: "Max Carey"
+date: "UNAM </br> `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["lucy", "lucy-fonts"]
+    nature:
+      beforeInit: "http://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(tidyverse)
+library(wordcloud2)
+library(kableExtra)
+library(readxl)
+```
+
+class: center, middle
+
+# xaringan
+
+### /ʃæ.'riŋ.ɡæn/
+
+---
+
+- Vamos a utilizar algunos datos lexicográficos (*A Frequency Dictionary of Spanish* y *English Grammar Profile*) y unos datos sociofonéticos para practicar el uso del *tidyverse*
+
+```{r, out.width = "100px", echo=FALSE}
+knitr::include_graphics("https://wordery.com/jackets/e7071a1a/m/a-frequency-dictionary-of-spanish-mark-davies-9780415334297.jpg")
+```
+
+--
+
+- Utiliza git para clonar el archivo de esta clase:
+```{r, engine = 'bash', eval = FALSE}
+git clone https://github.com/axme100/rclass
+```
+
+--
+
+- Utiliza shell para sacar la carpeta `starterPack`
+```{r, engine = 'bash', eval = FALSE}
+git clone https://github.com/axme100/rclass
+```
+
+--
+
+- Borrar rclass `starterPack`
+```{r, engine = 'bash', eval = FALSE}
+rm -r rclass/
+```
+
+--
+
+- Haz click en `myScript.R`
+
+---
+class: inverse, center, middle
+
+# ¿Cómo cargar datos en R Studio?
+
+---
+# ¿Cómo cargar datos en R?
+
+--
+
+## Con *Absolute Path*
+```{r}
+spanLexData <- read.csv("spanLexData.csv")
+```
+
+--
+
+## Con *Relative Path*
+```{r}
+spanLexData <- read.csv("spanLexData.csv")
+```
+
+## En *R Studio*
+- Ayuda muchísimo `import dataset`
+
+---
+
+# ¿Cómo son estos datos?
+
+--
+
+## Con `str()`
+
+--
+
+```{r}
+str(spanLexData)
+```
+
+---
+
+## Con `glimpse()`
+
+--
+
+```{r}
+# library(dplyr)
+glimpse(spanLexData)
+```
+
+---
+
+## Con `unique()`
+
+--
+
+```{r}
+unique(spanLexData$pos)
+```
+
+---
+
+## Con `View()`
+
+--
+
+```{r}
+# View(spanLexData)
+```
+
+---
+
+## Con `head()`
+
+--
+
+```{r}
+head(spanLexData)
+```
+
+---
+
+# ¿Cómo podemos ordenar esta base de datos?
+
+--
+
+```{r}
+spanLexData <- spanLexData %>%
+  arrange(rank)
+```
+
+---
+
+class: inverse, center, middle
+
+# ¿Cómo son los datos?
+
+---
+
+## ¿Qué tan frecuente es la palabra más frecuente?
+
+--
+
+```{r fig.height=5, fig.width=8}
+ggplot(spanLexData, aes(y = rawFreq, x = rank))
+```
+
+---
+
+## ¿Qué tan frecuente es la palabra más frecuente?
+
+--
+
+```{r fig.height=5, fig.width=8}
+ggplot(spanLexData, aes(y = rawFreq, x = rank)) + geom_point()
+```
+
+---
+
+## ¿Qué tan frecuente es la palabra más frecuente?
+
+--
+
+```{r fig.height=5, fig.width=8}
+ggplot(spanLexData, aes(y = rawFreq, x = rank)) + geom_point() + scale_y_log10()
+```
+
+---
+
+## ¿Qué tan frecuente es la palabra más frecuente?
+
+--
+
+```{r fig.height=5, fig.width=8}
+ggplot(spanLexData, aes(y = rawFreq, x = rank, color = pos)) + geom_point() + scale_y_log10()
+```
+
+---
+
+## Se observa el mismo patrón por cada POS?
+
+--
+
+```{r fig.height=5, fig.width=8}
+ggplot(spanLexData, aes(y = rawFreq, x = rank)) + geom_point() + scale_y_log10() + facet_wrap(~pos)
+```
+
+---
+
+## ¿Cuál es el POS más frecuente?
+
+### Contar los datos
+```{r}
+spanLexData %>%
+  count(pos)
+```
+
+---
+
+## ¿Cuál es el POS más frecuente?
+
+### utilizar arrange para ponder en un orden descendente
+
+```{r}
+spanLexData %>%
+  count(pos) %>%
+  arrange(desc(n))
+```
+
+
+---
+
+## ¿Cuál es el POS más frecuente?
+
+Ver los resultados
+
+```{r fig.height=5, fig.width=8}
+spanLexData %>%
+  count(pos) %>%
+  arrange(desc(n)) %>%
+ggplot(.,aes(y=n,x=pos)) + geom_col()
+```
+
+
+
+---
+
+### Reorganizar los factores(opcional)
+
+--
+
+```{r fig.height=5, fig.width=8}
+spanLexData %>%
+  count(pos) %>%
+  arrange(desc(n)) %>%
+  mutate(pos = fct_reorder(pos,desc(n))) %>%
+ggplot(., aes(y=n,x=pos)) + geom_col()
+```
+
+---
+
+class: inverse, center, middle
+
+# Boxplots con unos datos de mi tesis
+
+---
+
+## Cargar y inspecionar unos datos de mi tesis
+
+
+--
+```{r}
+maxTesis <- read.csv("maxTesis.csv")
+glimpse(maxTesis)
+```
+
+--
+
+---
+
+1. intensityDif es un índice de debilitamiento de la /d/ intervocálica. Los valores más cercanos a 1 son más debilitadas.
+
+2. Con Boxplots, queremos ver ¿cuál de los tres grupos dialectales debilita más?
+
+---
+
+```{r}
+ggplot(maxTesis, aes(x=grupo, y=intensityDif)) + geom_boxplot()
+```
+
+---
+
+# ¿Cómo podemos ver la siguiente
+
+```{r echo=FALSE}
+ggplot(maxTesis, aes(x=grupo, y=intensityDif,fill=sexo)) + geom_boxplot()
+```
+
+
+---
+
+```{r}
+ggplot(maxTesis, aes(x=grupo, y=intensityDif,fill=sexo)) + geom_boxplot()
+```
+
+¿Cuál grupo dialectal tiene realizaciones de la /d/ más debilitadas?
+
+---
+
+class: inverse, center, middle
+
+# *Stacked Bar Graphs* con datos del *English Grammar Profile*
+
+---
+
+# *English Grammar Profile*
+
+### 1. Diccionario de las habilidades gramaticales según el Marco Común Europeo de Referencia para las lenguas
+
+--
+
+### 2. Cargar los datos
+
+--
+
+```{r warning=FALSE}
+engGrPr <- read_excel("a1-c2.xlsx")
+```
+
+--
+
+### 3. Inspeccionar los datos. (La definición de las variables se encuentra <a href="http://www.englishprofile.org/english-grammar-profile/glossary"> aquí </a>)
+
+--
+### 4. Vamos a hacer un *Stacked Bar Graph*
+
+---
+
+class: inverse, middle, center
+
+# ¿Cuál es la distribución de los puntos gramaticales según el nivel del *pasado?*?
+
+---
+
+```{r echo=FALSE, fig.height=8}
+
+engGrPr %>%
+    filter(SuperCategory == "PAST") %>%
+    ggplot(aes(x=SubCategory, fill=Level)) +
+    geom_bar(position = position_stack(reverse = TRUE)) +
+    coord_flip() +
+    theme(legend.position = "top") +
+    ggtitle("PAST BY CEFR LEVEL")
+```
+
+---
+# English Grammar Profile
+
+### Hay que filtrar por las categorías que solo tienen la *SuperCategory* *PAST*
+```{r}
+engGrPr %>%
+    filter(SuperCategory == "PAST")
+```
+
+---
+
+### Mapear los datos que queremos usar a la función
+```{r}
+engGrPr %>%
+    filter(SuperCategory == "PAST") %>%
+    ggplot(aes(x=SubCategory, fill=Level))
+```
+
+---
+
+### Agregar el tipo de vis. que queremos
+```{r fig.height=5}
+engGrPr %>%
+    filter(SuperCategory == "PAST") %>%
+    ggplot(aes(x=SubCategory, fill=Level)) +
+    geom_bar()
+```
+
+---
+
+### Voltear las barras
+```{r fig.height=5}
+engGrPr %>%
+    filter(SuperCategory == "PAST") %>%
+    ggplot(aes(x=SubCategory, fill=Level)) +
+    geom_bar(position = position_stack(reverse = TRUE))
+```
+
+---
+
+```{r}
+engGrPr %>%
+    filter(SuperCategory == "PAST") %>%
+    ggplot(aes(x=SubCategory, fill=Level)) +
+    geom_bar(position = position_stack(reverse = TRUE)) +
+    coord_flip()
+```
+
+---
+
+```{r}
+engGrPr %>%
+    filter(SuperCategory == "PAST") %>%
+    ggplot(aes(x=SubCategory, fill=Level)) +
+    geom_bar(position = position_stack(reverse = TRUE)) +
+    coord_flip() +
+    theme(legend.position = "top")
+```
+
+---
+
+class: inverse, center, middle
+
+# Word Cloud con Word Cloud hello world 2 d
+
+---
+
+# ¿Como hacer un WordCloud?
+```{r}
+wordCloudData <- spanLexData %>%
+  select(headword,rawFreq) %>%
+  # Selecionar las filas de 100 a n()
+  # https://stackoverflow.com/a/42238006/5420796
+  slice(100:n())
+
+wordcloud2(wordCloudData)
+```
+---
