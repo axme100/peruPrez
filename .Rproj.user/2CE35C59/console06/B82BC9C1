@@ -110,3 +110,43 @@ peru.Rproj		xaringan-themer.css
 prez.Rmd
 ]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
 $ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0mgit add .
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m peru
+$ [0mgiot[K[K[K[Kgit commit -m [K[K[K-m [K[K[K-m [K "Orozco map  added[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[KUp to prag matics and syntax [K[K[K[K[K[K[K[K[K[K[K[K[Ks and st[Kyntax ba[K[Kbak[Kckgroun d, need to figure out layou t of slides"
+[master 262dc44] Up to pragmatics and syntax background, need to figure out layout of slides
+ 19 files changed, 167 insertions(+), 678 deletions(-)
+ rewrite .Rproj.user/2CE35C59/console06/INDEX001 (85%)
+ delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/2CAA0AC4
+ delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/2CAA0AC4-contents
+ delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/51EAF418
+ delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/51EAF418-contents
+ delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/FA9C8F9
+ delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/FA9C8F9-contents
+ delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/lock_file
+ create mode 100644 .gitignore
+ create mode 100644 buenProvecho.wav
+ create mode 100644 voseo_map.png
+ create mode 100644 voseo_mapa.png
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+$ [0m[K$ [0mls
+buenProvecho.wav
+cdmx-in-situ-8-circunfleja-1.wav
+cdmx-in-situ-8-circunfleja-2.wav
+libs
+my-theme.css
+peru.Rproj
+prez.Rmd
+prez.html
+prez_files
+voseo_map.png
+voseo_mapa.png
+xaringan-themer.css
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+$ [0mls *wav*
+buenProvecho.wav
+cdmx-in-situ-8-circunfleja-1.wav
+cdmx-in-situ-8-circunfleja-2.wav
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+$ [0m]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+[K$ [0mgit add .

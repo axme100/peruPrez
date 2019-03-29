@@ -19,6 +19,19 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
+```{r, load_refs, echo=FALSE, cache=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE, 
+           bib.style = "authoryear", 
+           cite.style = 'authoryear', 
+           style = "markdown",
+           hyperlink = FALSE, 
+           dashed = FALSE)
+myBib <- ReadBib("/Users/maxcarey/Documents/tesis/Zotero.bib", check = FALSE)
+```
+
+
+
 ```{r xaringan-themer, include = FALSE}
 library(xaringanthemer)
 duo_accent(primary_color = "#002B7A", secondary_color = "#D59F0F")
@@ -59,7 +72,7 @@ layout: true
 
 # Introduction
 
-- Dialect contact?
+- Dialect contact? `r Citep(myBib, 'trudgill_dialects_1986')`
 
 --
 
@@ -130,7 +143,8 @@ layout: true
 <audio controls>
   <source src="buenProvecho.wav" type="audio/wav">
 Your browser does not support the audio element.
-</audio>
+</audio> <sup><sup>chi-en-cdmx-m-23</sup></sup>
+
 
 ---
 
@@ -146,16 +160,102 @@ layout: true
 
 --
 
-> In CDMX, verbs are conjugated according to *tú* and *usted*, in certain states, "vos" is used (by some people). **¿Qué decís?** vs. **¿Que dices?** (Orozco, 2010: 256)
+> In CDMX, verbs are conjugated according to *tú* and *usted*, in certain states, "vos" is used (by some people). **¿Qué decís?** vs. **¿Que dices?** `r Citep(myBib, 'orozco_formas_2010')`
+
+
+
 
 ---
 
-![](voseo_mapa.png)
-Map reporoduced from Orozco (2010: 256)
+layout: true
 
 <div class="my-footer"></div>
 
 ---
-Technical Notes
+
+
+![](voseo_mapa.png)
+Map reporoduced from `r Citep(myBib, 'orozco_formas_2010')`
+
+<div class="my-footer"></div>
+
+
+---
+
+layout: true
+
+<div class="my-footer"></div>
+
+---
+# Phonological charactersitsics of varieties of Mexican Spanish (Examples)
+
+- Circunflex intonation `r Citep(myBib, 'martin_butragueno_configuraciones_2004')`
+
+--
+
+> A rising and falling intonational pattern, typical of Mexico City. (men and lower socioeconomic groups)
+<audio controls>
+  <source src="cdmx-in-situ-8-circunfleja-1.wav" type="audio/wav"> </audio> <sup><sup>cdmx-in-situ-m-31</sup></sup>
+
+> "**Complicado**" (Complicated)
+
+--
+
+> <audio controls>
+  <source src="cdmx-in-situ-8-circunfleja-2.wav" type="audio/wav"> </audio> <sup><sup>cdmx-in-situ-m-31</sup></sup>
+
+
+> "Y eso era lo malo porque, pues, los **medicaban**, era, pues, practicamente, por toda su **vida**"
+
+---
+
+# Phonological charactersitsics of varieties of Mexican Spanish (Examples)
+
+- Devoiced vowels
+
+>  Lack of vocal fold vibration, shorter duration, lower volume
+
+--
+
+> <audio controls>
+  <source src="debilitaUno.wav" type="audio/wav"></audio>
+<sup><sup>cdmx-in-situ-f-27s</sup></sup>
+
+> "Era un solo **maestro**"
+
+--
+
+> <audio controls><source src="debilitaDos.wav" type="audio/wav">
+
+> "Eso es lo que no me **encanta**"
+
+---
+
+# Phonological charactersitsics of varieties of Mexican Spanish (Examples)
+
+> Use of "sh" for "ch" ([ʃ] for /tʃ/)
+> <audio controls><source src="ch.wav" type="audio/wav">
+
+> Las personas mayores que decían, "No, para irse a **Chihuahua** era **echarse** **lonche**"
+
+> Older people would say, "No way, to go to Chihuahua you gotta pack a lunch"
+
+---
+
+# Phonological charactersitsics of varieties of Mexican Spanish (Examples)
+
+- Weakening of intervocalic /d/
+> <audio controls><source src="dUno.wav" type="audio/wav">
+
+
+--
+
+---
+
+# References
+
+#```{r, 'refs2', results='asis', #echo=FALSE}
+#PrintBibliography(myBib, start = #1, end = 6)
+#```
 
 ---
