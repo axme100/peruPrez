@@ -150,3 +150,18 @@ cdmx-in-situ-8-circunfleja-2.wav
 ]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
 $ [0m]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
 [K$ [0mgit add .
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m peru
+$ [0mgit commit -  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C- m "Added bu c  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Knch  of examples"
+[master b8058bf] Added bunch of examples
+ 16 files changed, 374 insertions(+), 20 deletions(-)
+ rewrite .Rproj.user/2CE35C59/console06/INDEX001 (85%)
+ create mode 100644 cdmx-in-situ-8-circunfleja-1.wav
+ create mode 100644 cdmx-in-situ-8-circunfleja-2.wav
+ create mode 100644 ch.wav
+ create mode 100644 dUno.wav
+ create mode 100644 debilitaDos.wav
+ create mode 100644 debilitaUno.wav
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+$ [0mgit push[K[K[K[K[K[K[K[K[K$ [0m

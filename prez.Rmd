@@ -248,14 +248,12 @@ layout: true
 > <audio controls><source src="dUno.wav" type="audio/wav">
 
 
---
-
 ---
 
 # References
 
-#```{r, 'refs2', results='asis', #echo=FALSE}
-#PrintBibliography(myBib, start = #1, end = 6)
-#```
+```{r, 'refs2', results='asis', echo=FALSE}
+PrintBibliography(myBib, start = 1, end = 6)
+```
 
 ---
