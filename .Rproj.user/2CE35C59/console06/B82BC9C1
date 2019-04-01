@@ -1,168 +1,27 @@
-]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m[0;34m peru
-$ [0m[K$ [0mtou[K[K[Ksublime3 my0th[K[K-[K-[K[K-theme.css
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
-$ [0mls
-libs
+ls
+docs
+index.html
 peru.Rproj
-prez.Rmd
-prez.html
-prez_files
-xaringan-themer.css
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
-$ [0mopen .
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
-$ [0m[K$ [0m[K$ [0m[K$ [0m]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m[0;34m peru
-[K$ [0mpng
-bash: png: command not found
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
-$ [0mls
-libs
-my-theme.css
-peru.Rproj
-prez.Rmd
-prez.html
-prez_files
-xaringan-themer.css
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
-$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0mopen .
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
-[?1034h[38;5;203mmaxcarey[38;05;38m[0;34m peru
-$ [0m[K$ [0mg[Kgit add .
-fatal: Not a git repository (or any of the parent directories): .git
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m[0;34m peru
-$ [0mgit[K[K[Kgit init
-Initialized empty Git repository in /Users/maxcarey/Documents/proj/peru/.git/
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master #)[0;34m peru
-$ [0mgit add .
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master +)[0;34m peru
-$ [0mgit commit -m "Ini tial commit-[K 0m "[K[K[K[K[K "gett[K[K[K[KGetting  formatting of slide s just how I want it [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kit " [K
-> 
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m peru
-$ [0mgit log
-\fatal: your current branch 'master' does not have any commits yet
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m peru
-$ [0m\[Kgit add .
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master +)[0;34m peru
-$ [0mgit commit -m "Ini tial commit"
-[master (root-commit) e87abe3] Initial commit
- 49 files changed, 5430 insertions(+)
- create mode 100644 .Rhistory
- create mode 100644 .Rproj.user/2CE35C59/console06/B82BC9C1
- create mode 100644 .Rproj.user/2CE35C59/console06/INDEX001
- create mode 100644 .Rproj.user/2CE35C59/pcs/debug-breakpoints.pper
- create mode 100644 .Rproj.user/2CE35C59/pcs/files-pane.pper
- create mode 100644 .Rproj.user/2CE35C59/pcs/source-pane.pper
- create mode 100644 .Rproj.user/2CE35C59/pcs/windowlayoutstate.pper
- create mode 100644 .Rproj.user/2CE35C59/pcs/workbench-pane.pper
- create mode 100644 .Rproj.user/2CE35C59/rmd-outputs
- create mode 100644 .Rproj.user/2CE35C59/saved_source_markers
- create mode 100644 .Rproj.user/2CE35C59/sources/prop/6814096F
- create mode 100644 .Rproj.user/2CE35C59/sources/prop/CA5E4FAF
- create mode 100644 .Rproj.user/2CE35C59/sources/prop/EE421E07
- create mode 100644 .Rproj.user/2CE35C59/sources/prop/INDEX
- create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/2CAA0AC4
- create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/2CAA0AC4-contents
- create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/51EAF418
- create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/51EAF418-contents
- create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/FA9C8F9
- create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/FA9C8F9-contents
- create mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/lock_file
- create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/2CE35C59145DD732/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/2CE35C5934FA9A99/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/2CE35C594810CB25/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/2CE35C598F11204/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/8DBCC181-prez/1/s/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
- create mode 100644 .Rproj.user/shared/notebooks/paths
- create mode 100644 libs/crosstalk/css/crosstalk.css
- create mode 100644 libs/crosstalk/js/crosstalk.js
- create mode 100644 libs/crosstalk/js/crosstalk.js.map
- create mode 100644 libs/crosstalk/js/crosstalk.min.js
- create mode 100644 libs/crosstalk/js/crosstalk.min.js.map
- create mode 100644 libs/datatables-binding/datatables.js
- create mode 100644 libs/datatables-css/datatables-crosstalk.css
- create mode 100644 libs/dt-core/css/jquery.dataTables.extra.css
- create mode 100644 libs/dt-core/css/jquery.dataTables.min.css
- create mode 100644 libs/dt-core/js/jquery.dataTables.min.js
- create mode 100644 libs/htmlwidgets/htmlwidgets.js
- create mode 100644 libs/jquery/LICENSE.txt
- create mode 100644 libs/jquery/jquery.min.js
- create mode 100644 libs/remark-css/default-fonts.css
- create mode 100644 libs/remark-css/default.css
- create mode 100644 my-theme.css
- create mode 100644 peru.Rproj
- create mode 100644 prez.Rmd
- create mode 100644 prez.html
- create mode 100644 prez_files/figure-html/cars-1.svg
- create mode 100644 xaringan-themer.css
+]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
+$ [0msublime3 index.html [A
 ]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
 [?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-$ [0m[K$ [0mgit log
-[?1h=[33mcommit e87abe346ddbbdb989eafada2fe[m [33m29c8260eacb34[m[m
-:[K[K[?1l>]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0mls
-buenProvecho.wav	prez.html
-libs			prez_files
-my-theme.css		voseo_mapa.png
-peru.Rproj		xaringan-themer.css
-prez.Rmd
+$ [0mgit remote add orig in https://github.com /axme100/peruPrez.git [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
 ]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0mgit add .
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m peru
-$ [0mgiot[K[K[K[Kgit commit -m [K[K[K-m [K[K[K-m [K "Orozco map  added[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[KUp to prag matics and syntax [K[K[K[K[K[K[K[K[K[K[K[K[Ks and st[Kyntax ba[K[Kbak[Kckgroun d, need to figure out layou t of slides"
-[master 262dc44] Up to pragmatics and syntax background, need to figure out layout of slides
- 19 files changed, 167 insertions(+), 678 deletions(-)
- rewrite .Rproj.user/2CE35C59/console06/INDEX001 (85%)
- delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/2CAA0AC4
- delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/2CAA0AC4-contents
- delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/51EAF418
- delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/51EAF418-contents
- delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/FA9C8F9
- delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/FA9C8F9-contents
- delete mode 100644 .Rproj.user/2CE35C59/sources/s-145DD732/lock_file
- create mode 100644 .gitignore
- create mode 100644 buenProvecho.wav
- create mode 100644 voseo_map.png
- create mode 100644 voseo_mapa.png
+$ [0mgit push -u origin  master
+Counting objects: 168, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/137)   Compressing objects:   1% (2/137)   Compressing objects:   2% (3/137)   Compressing objects:   3% (5/137)   Compressing objects:   4% (6/137)   Compressing objects:   5% (7/137)   Compressing objects:   6% (9/137)   Compressing objects:   7% (10/137)   Compressing objects:   8% (11/137)   Compressing objects:   9% (13/137)   Compressing objects:  10% (14/137)   Compressing objects:  11% (16/137)   Compressing objects:  12% (17/137)   Compressing objects:  13% (18/137)   Compressing objects:  14% (20/137)   Compressing objects:  15% (21/137)   Compressing objects:  16% (22/137)   Compressing objects:  17% (24/137)   Compressing objects:  18% (25/137)   Compressing objects:  19% (27/137)   Compressing objects:  20% (28/137)   Compressing objects:  21% (29/137)   Compressing objects:  22% (31/137)   Compressing objects:  23% (32/137)   Compressing objects:  24% (33/137)   Compressing objects:  25% (35/137)   Compressing objects:  26% (36/137)   Compressing objects:  27% (37/137)   Compressing objects:  28% (39/137)   Compressing objects:  29% (40/137)   Compressing objects:  30% (42/137)   Compressing objects:  31% (43/137)   Compressing objects:  32% (44/137)   Compressing objects:  33% (46/137)   Compressing objects:  34% (47/137)   Compressing objects:  35% (48/137)   Compressing objects:  36% (50/137)   Compressing objects:  37% (51/137)   Compressing objects:  38% (53/137)   Compressing objects:  39% (54/137)   Compressing objects:  40% (55/137)   Compressing objects:  41% (57/137)   Compressing objects:  42% (58/137)   Compressing objects:  43% (59/137)   Compressing objects:  44% (61/137)   Compressing objects:  45% (62/137)   Compressing objects:  46% (64/137)   Compressing objects:  47% (65/137)   Compressing objects:  48% (66/137)   Compressing objects:  49% (68/137)   Compressing objects:  50% (69/137)   Compressing objects:  51% (70/137)   Compressing objects:  52% (72/137)   Compressing objects:  53% (73/137)   Compressing objects:  54% (74/137)   Compressing objects:  55% (76/137)   Compressing objects:  56% (77/137)   Compressing objects:  57% (79/137)   Compressing objects:  58% (80/137)   Compressing objects:  59% (81/137)   Compressing objects:  60% (83/137)   Compressing objects:  61% (84/137)   Compressing objects:  62% (85/137)   Compressing objects:  63% (87/137)   Compressing objects:  64% (88/137)   Compressing objects:  65% (90/137)   Compressing objects:  66% (91/137)   Compressing objects:  67% (92/137)   Compressing objects:  68% (94/137)   Compressing objects:  69% (95/137)   Compressing objects:  70% (96/137)   Compressing objects:  71% (98/137)   Compressing objects:  72% (99/137)   Compressing objects:  73% (101/137)   Compressing objects:  74% (102/137)   Compressing objects:  75% (103/137)   Compressing objects:  76% (105/137)   Compressing objects:  77% (106/137)   Compressing objects:  78% (107/137)   Compressing objects:  79% (109/137)   Compressing objects:  80% (110/137)   Compressing objects:  81% (111/137)   Compressing objects:  82% (113/137)   Compressing objects:  83% (114/137)   Compressing objects:  84% (116/137)   Compressing objects:  85% (117/137)   Compressing objects:  86% (118/137)   Compressing objects:  87% (120/137)   Compressing objects:  88% (121/137)   Compressing objects:  89% (122/137)   Compressing objects:  90% (124/137)   Compressing objects:  91% (125/137)   Compressing objects:  92% (127/137)   Compressing objects:  93% (128/137)   Compressing objects:  94% (129/137)   Compressing objects:  95% (131/137)   Compressing objects:  96% (132/137)   Compressing objects:  97% (133/137)   Compressing objects:  98% (135/137)   Compressing objects:  99% (136/137)   Compressing objects: 100% (137/137)   Compressing objects: 100% (137/137), done.
+Writing objects:   0% (1/168)   Writing objects:   1% (2/168)   Writing objects:   2% (4/168)   Writing objects:   3% (6/168)   Writing objects:   4% (7/168)   Writing objects:   5% (9/168)   Writing objects:   6% (11/168)   Writing objects:   7% (12/168)   Writing objects:   8% (14/168)   Writing objects:   9% (16/168)   Writing objects:  10% (17/168)   Writing objects:  11% (19/168)   Writing objects:  12% (21/168)   Writing objects:  13% (22/168)   Writing objects:  14% (24/168)   Writing objects:  15% (26/168)   Writing objects:  16% (27/168)   Writing objects:  17% (29/168)   Writing objects:  18% (31/168)   Writing objects:  19% (32/168)   Writing objects:  20% (34/168)   Writing objects:  21% (36/168)   Writing objects:  22% (37/168)   Writing objects:  23% (39/168)   Writing objects:  24% (41/168)   Writing objects:  25% (42/168)   Writing objects:  25% (43/168), 1.08 MiB | 296.00 KiB/s   Writing objects:  25% (43/168), 1.26 MiB | 300.00 KiB/s   Writing objects:  26% (44/168), 1.26 MiB | 300.00 KiB/s   Writing objects:  26% (45/168), 1.63 MiB | 310.00 KiB/s   Writing objects:  26% (45/168), 1.82 MiB | 309.00 KiB/s   Writing objects:  27% (46/168), 1.82 MiB | 309.00 KiB/s   Writing objects:  27% (46/168), 2.13 MiB | 298.00 KiB/s   Writing objects:  28% (48/168), 2.32 MiB | 301.00 KiB/s   Writing objects:  29% (49/168), 2.32 MiB | 301.00 KiB/s   Writing objects:  30% (51/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  31% (53/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  32% (54/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  33% (56/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  35% (59/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  36% (61/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  37% (63/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  38% (64/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  39% (66/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  40% (68/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  41% (69/168), 2.63 MiB | 306.00 KiB/s   Writing objects:  42% (71/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  43% (73/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  44% (74/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  45% (76/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  46% (78/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  47% (79/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  48% (81/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  49% (83/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  50% (84/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  51% (86/168), 2.82 MiB | 309.00 KiB/s   Writing objects:  51% (86/168), 3.01 MiB | 309.00 KiB/s   Writing objects:  52% (88/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  53% (90/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  54% (91/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  55% (93/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  56% (95/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  57% (97/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  58% (98/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  59% (100/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  60% (101/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  61% (103/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  62% (105/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  63% (106/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  64% (108/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  66% (111/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  67% (113/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  68% (115/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  69% (116/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  70% (118/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  71% (120/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  72% (121/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  73% (123/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  74% (125/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  75% (126/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  76% (128/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  77% (130/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  78% (132/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  79% (133/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  80% (135/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  81% (137/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  82% (138/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  83% (140/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  84% (142/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  85% (143/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  86% (145/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  87% (147/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  88% (148/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  89% (150/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  90% (152/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  91% (153/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  92% (155/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  93% (157/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  94% (158/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  95% (160/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  96% (162/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  97% (163/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  98% (165/168), 3.20 MiB | 303.00 KiB/s   Writing objects:  99% (167/168), 3.20 MiB | 303.00 KiB/s   Writing objects: 100% (168/168), 3.20 MiB | 303.00 KiB/s   Writing objects: 100% (168/168), 3.22 MiB | 303.00 KiB/s, done.
+Total 168 (delta 39), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/39)   [Kremote: Resolving deltas:   7% (3/39)   [Kremote: Resolving deltas:  15% (6/39)   [Kremote: Resolving deltas:  25% (10/39)   [Kremote: Resolving deltas:  35% (14/39)   [Kremote: Resolving deltas:  43% (17/39)   [Kremote: Resolving deltas:  51% (20/39)   [Kremote: Resolving deltas:  56% (22/39)   [Kremote: Resolving deltas:  64% (25/39)   [Kremote: Resolving deltas:  66% (26/39)   [Kremote: Resolving deltas:  69% (27/39)   [Kremote: Resolving deltas:  76% (30/39)   [Kremote: Resolving deltas:  87% (34/39)   [Kremote: Resolving deltas:  89% (35/39)   [Kremote: Resolving deltas:  92% (36/39)   [Kremote: Resolving deltas:  94% (37/39)   [Kremote: Resolving deltas: 100% (39/39)   [Kremote: Resolving deltas: 100% (39/39), done.[K
+To https://github.com/axme100/peruPrez.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
 ]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-$ [0m[K$ [0mls
-buenProvecho.wav
-cdmx-in-situ-8-circunfleja-1.wav
-cdmx-in-situ-8-circunfleja-2.wav
-libs
-my-theme.css
+$ [0mls
+docs
+index.html
 peru.Rproj
-prez.Rmd
-prez.html
-prez_files
-voseo_map.png
-voseo_mapa.png
-xaringan-themer.css
 ]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-$ [0mls *wav*
-buenProvecho.wav
-cdmx-in-situ-8-circunfleja-1.wav
-cdmx-in-situ-8-circunfleja-2.wav
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-$ [0m]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-[K$ [0mgit add .
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m peru
-$ [0mgit commit -  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C- m "Added bu c  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Knch  of examples"
-[master b8058bf] Added bunch of examples
- 16 files changed, 374 insertions(+), 20 deletions(-)
- rewrite .Rproj.user/2CE35C59/console06/INDEX001 (85%)
- create mode 100644 cdmx-in-situ-8-circunfleja-1.wav
- create mode 100644 cdmx-in-situ-8-circunfleja-2.wav
- create mode 100644 ch.wav
- create mode 100644 dUno.wav
- create mode 100644 debilitaDos.wav
- create mode 100644 debilitaUno.wav
-]0;~/Documents/proj/peru[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-$ [0mgit push[K[K[K[K[K[K[K[K[K$ [0m]0;~/Documents/proj/peru[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m peru
-[K$ [0mt[Kgit add .
+$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0mgit add .
