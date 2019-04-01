@@ -16,7 +16,10 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+library(tidyverse)
 options(htmltools.dir.version = FALSE)
+# Load pilot data from study:
+dData <- read.csv("dData.csv")
 ```
 
 ```{r, load_refs, echo=FALSE, cache=FALSE}
@@ -110,7 +113,7 @@ layout: true
 ???
 
 - Give a one minute introduction to myself, what I'm doing for my Fulbright program.
-- Give a one mintue introduction to my thesis project.
+- Give a one minute introduction to my thesis project.
 
 ---
 
@@ -175,7 +178,7 @@ layout: true
 
 
 ![](voseo_mapa.png)
-Map reporoduced from `r Citep(myBib, 'orozco_formas_2010')`
+Map reproduced from `r Citep(myBib, 'orozco_formas_2010')`
 
 <div class="my-footer"></div>
 
@@ -189,7 +192,7 @@ layout: true
 ---
 # Phonological charactersitsics of varieties of Mexican Spanish (Examples)
 
-- Circunflex intonation `r Citep(myBib, 'martin_butragueno_configuraciones_2004')`
+- Circumflex intonation `r Citep(myBib, 'martin_butragueno_configuraciones_2004')`
 
 --
 
@@ -211,7 +214,7 @@ layout: true
 
 # Phonological charactersitsics of varieties of Mexican Spanish (Examples)
 
-- Devoiced vowels
+- Devoiced vowels `r Citep(myBib, 'serranomorales2006')`
 
 >  Lack of vocal fold vibration, shorter duration, lower volume
 
@@ -223,17 +226,24 @@ layout: true
 
 > "Era un solo **maestro**"
 
+> "It was just one teacher"
+
 --
 
-> <audio controls><source src="debilitaDos.wav" type="audio/wav">
+> <audio controls><source src="debilitaDos.wav" type="audio/wav"> </audio><sup><sup>cdmx-in-situ-f-27s</sup></sup>
 
 > "Eso es lo que no me **encanta**"
+
+> "That's what I don't really like"
 
 ---
 
 # Phonological charactersitsics of varieties of Mexican Spanish (Examples)
 
-> Use of "sh" for "ch" ([ʃ] for /tʃ/)
+> Use of "sh" for "ch" ([ʃ] for /tʃ/) `r Citep(myBib, 'gil2014')`
+
+--
+
 > <audio controls><source src="ch.wav" type="audio/wav">
 
 > Las personas mayores que decían, "No, para irse a **Chihuahua** era **echarse** **lonche**"
@@ -244,16 +254,65 @@ layout: true
 
 # Phonological charactersitsics of varieties of Mexican Spanish (Examples)
 
-- Weakening of intervocalic /d/
-> <audio controls><source src="dUno.wav" type="audio/wav">
+- Weakening of intervocalic /d/ `r Citep(myBib, 'serrano_2008')`
+> <audio controls><source src="dUno.wav" type="audio/wav"> </audio>
+
+> Es un destilado
+
+---
+
+layout: false
+
+class: inverse, center, middle
+
+# My specific research
+
+---
+
+layout: true
+
+
+<div class="my-footer"></div>
+
+---
+# My specific research questions
+
+> 1a) ¿Cambia el habla de los chihuahuenses que vienen a vivir a la CDMX, una nueva zona dialectal? Si es así, ¿cómo cambia?
+
+--
+
+> 1b) ¿Acomodan sus rasgos fónicos a los de la variedad de la CDMX? ¿empiezan a producir variantes de la /d/ menos debilitadas?
+
+--
+
+> 1c) Si es así: ¿Cuáles son los factores sociales, lingüísticos e identitarios que condicionan esta variación?
+
+---
+# Corpus
+
+
+---
+# Results of pilot study
+
+#### Figura X: Ploteos de densidad de la variable dependiente por grupo dialectal
+```{r, echo=FALSE, fig.height=6, fig.width=12}
+ggplot(dData, aes(x = intensityDif, fill = grupo)) +
+  geom_density(alpha = .3) + theme(legend.text=element_text(size=40), legend.key.size = unit(2, "cm"))
+```
 
 
 ---
 
-# References
+# References (1/2)
 
 ```{r, 'refs2', results='asis', echo=FALSE}
-PrintBibliography(myBib, start = 1, end = 6)
+PrintBibliography(myBib, start = 1, end = 4)
 ```
 
 ---
+
+# References (2/2)
+
+```{r, 'refs3', results='asis', echo=FALSE}
+PrintBibliography(myBib, start = 5, end = 6)
+```
