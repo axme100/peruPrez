@@ -17,9 +17,11 @@ output:
 
 ```{r setup, include=FALSE}
 library(tidyverse)
+library(kableExtra)
 options(htmltools.dir.version = FALSE)
 # Load pilot data from study:
 dData <- read.csv("dData.csv")
+participantes <- read.csv("participantes.csv")
 ```
 
 ```{r, load_refs, echo=FALSE, cache=FALSE}
@@ -75,12 +77,22 @@ layout: true
 
 # Introduction
 
+
 - Dialect contact? `r Citep(myBib, 'trudgill_dialects_1986')`
+
+???
+
+- 30 seconds intro intro, what I'm doing where I study
+
+- One minute intro to my thesis topic.
+
+- 
 
 --
 
   - What is a dialect/sociolect/ethnolect? (**language variety**)
-  
+
+
 --
   
   - What do I mean by contact?
@@ -108,12 +120,6 @@ layout: true
 --
 
 - Background
-
-
-???
-
-- Give a one minute introduction to myself, what I'm doing for my Fulbright program.
-- Give a one minute introduction to my thesis project.
 
 ---
 
@@ -275,6 +281,7 @@ layout: true
 <div class="my-footer"></div>
 
 ---
+
 # My specific research questions
 
 > 1a) ¿Cambia el habla de los chihuahuenses que vienen a vivir a la CDMX, una nueva zona dialectal? Si es así, ¿cómo cambia?
@@ -288,7 +295,18 @@ layout: true
 > 1c) Si es así: ¿Cuáles son los factores sociales, lingüísticos e identitarios que condicionan esta variación?
 
 ---
+
 # Corpus
+
+#### Table 2: Participants in my thesis study
+```{r mostrar_tabla_hablantes, echo=FALSE}
+participantes %>%
+  arrange(uniqueID) %>%
+  kable() %>%
+  kable_styling() %>%
+  scroll_box(width = "100%", height = "380px")
+```
+
 
 
 ---
@@ -314,5 +332,5 @@ PrintBibliography(myBib, start = 1, end = 4)
 # References (2/2)
 
 ```{r, 'refs3', results='asis', echo=FALSE}
-PrintBibliography(myBib, start = 5, end = 6)
+PrintBibliography(myBib, start = 5, end = 7)
 ```

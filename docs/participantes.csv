@@ -1,0 +1,34 @@
+grupo,sexo,edad,timeRes,trabajoActual,uniqueID
+cdmx-in-situ,femenino,30,NA,Diseñadora gráfica,025-
+cdmx-in-situ,masculino,32,NA,Actor,026-
+cdmx-in-situ,femenino,23,NA,Estudiante de licenciatura,027-
+cdmx-in-situ,masculino,31,NA,Ingeniero,028-
+cdmx-in-situ,femenino,27,NA,Doctora,029-
+cdmx-in-situ,masculino,30,NA,Periodista,030-
+cdmx-in-situ,femenino,27,NA,Productora fotográfica,031-
+cdmx-in-situ,masculino,31,NA,Psicólogo,032-
+chi-in-situ,femenino,32,NA,Informática/Maestra,001-
+chi-in-situ,masculino,32,NA,Estudiante de licenciatura,002-
+chi-in-situ,femenino,39,NA,Administradora de una empresa petrolera,003-
+chi-in-situ,masculino,21,NA,Estudiante de licenciatura y trabaja en antro,004-
+chi-in-situ,femenino,27,NA,Trabajo como mesera en un restaurante en chihuahua,005-
+chi-in-situ,masculino,32,NA,Cronista/Maestro,006-
+chi-in-situ,femenino,31,NA,Ama de casa,007-
+chi-in-situ,masculino,30,NA,Reparación de lavadores,008-
+chi-en-cdmx,femenino,37,6,Estudiante de doctorado,009-
+chi-en-cdmx,masculino,39,6,Estudiante del doctorado,010-
+chi-en-cdmx,femenino,41,6,Abogada,011-
+chi-en-cdmx,masculino,33,8,Gerente de marca,012-
+chi-en-cdmx,femenino,29,1,Mercadólogo (llego en febrero),013-
+chi-en-cdmx,masculino,27,4,Arquitecto,014-
+chi-en-cdmx,femenino,31,3,Diseñador grafico,015-
+chi-en-cdmx,masculino,23,0.5,Redactor,016-
+chi-en-cdmx,femenino,31,6,Arquitecta,017-
+chi-en-cdmx,masculino,25,0.85,Asistente de redacción,018-
+chi-en-cdmx,femenino,26,2.5,"Administradora de becas
+",019-
+chi-en-cdmx,masculino,26,8,Estudiante de maestría,020-
+chi-en-cdmx,femenino,34,2,Administradora de una impresa petrolera,021-
+chi-en-cdmx,masculino,30,1,Artista,022-
+chi-en-cdmx,femenino,36,10,Manager en una firma de lentes,023-
+chi-en-cdmx,masculino,18,1,Estudiante de licenciatura,024-
