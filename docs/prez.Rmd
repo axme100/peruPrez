@@ -284,15 +284,15 @@ layout: true
 
 # My specific research questions
 
-> 1a) ¿Cambia el habla de los chihuahuenses que vienen a vivir a la CDMX, una nueva zona dialectal? Si es así, ¿cómo cambia?
+> 1a) Does the speech of migrant *chihuahuenses* who move to Mexico City (a new dialect zone) change? If so, how? 
 
 --
 
-> 1b) ¿Acomodan sus rasgos fónicos a los de la variedad de la CDMX? ¿empiezan a producir variantes de la /d/ menos debilitadas?
+> 1b) Does this population produce "stronger" variants of intervocalic /d/?
 
 --
 
-> 1c) Si es así: ¿Cuáles son los factores sociales, lingüísticos e identitarios que condicionan esta variación?
+> 1c) If so: What are the social, linguistic and identity factors that contribute to accomodation?
 
 ---
 
@@ -306,8 +306,6 @@ participantes %>%
   kable_styling() %>%
   scroll_box(width = "100%", height = "380px")
 ```
-
-
 
 ---
 # Results of pilot study
